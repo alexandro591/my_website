@@ -1,2 +1,2 @@
 # My Personal Website
-A app resume build in react.
+A resume app, built in react.
