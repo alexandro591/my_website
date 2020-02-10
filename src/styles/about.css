@@ -1,5 +1,21 @@
 #about{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+}
+
+#photoAbout{
+    margin: 0;
+    width: 50vw;
+}
+
+#photoAbout img{
+    height: 100%;
+}
+
+#contentAbout{
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 50vw;
+    text-align: justify;
 }
