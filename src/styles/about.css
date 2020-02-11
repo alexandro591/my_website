@@ -1,21 +1,117 @@
 #about{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 6vw;
+    margin-top: 5vw;
+}
+
+#about h1{
+    cursor: pointer;
+    width: 30%;
+    margin-left: 70%;
+    border-radius: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(173, 173, 173);
+    filter: drop-shadow(0px 0px 5px rgb(80, 80, 80));
+}
+
+#about h1:hover,
+#about h1:active,
+#about h1:focus{
+    -webkit-tap-highlight-color:transparent;
+    outline: 0;
+    box-shadow: transparent;
 }
 
 #photoAbout{
-    margin: 0;
-    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 0;
 }
 
 #photoAbout img{
-    height: 100%;
+    margin-right: 0;
+    height: 60vh;
+    border-radius: 2vw;
+    filter: drop-shadow(0px 0px 5px rgb(80, 80, 80));
 }
 
 #contentAbout{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin-right: 5vw;
     width: 50vw;
     text-align: justify;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 200px;
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+    margin: 0;
+}
+
+.contentAvailable{
+    background-color: rgb(230, 230, 230);
+    padding: 5%;
+    margin-bottom: 10%;
+    border-radius: 2vh;
+}
+
+.contentHidden{
+    min-height: 0;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: -5%;
+}
+#about hr{
+    margin: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+@media screen and (max-width: 992px){
+    #about{
+        margin-top: 0;
+        margin-bottom: 0vh;
+    }
+    #about h1{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    #photoAbout img{
+        margin-top: 5vh;
+        height: 50vh;
+        border-radius: 2vw;
+    }
+    #about{
+        align-items: center;
+        flex-direction: column;
+        justify-content: start;
+    }
+    #contentAbout{
+        margin: 0;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 80vw;
+    }
+    #about h1{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 50%;
+        margin-left: 50%;
+    }
+    #about hr{
+        transform: scale(1);
+        width: 80%;
+        margin-top: 5vh;
+    }
 }
