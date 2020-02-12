@@ -50,7 +50,8 @@
 #resume .container #download{
     margin: auto;
     width: 100%;
-    background: linear-gradient(220deg, #fdcd3b 85%, #ffed4b 60%)
+    background: linear-gradient(220deg, #fdcd3b 85%, #ffed4b 60%);
+    font-size: large;
 }
 
 @media screen and (max-width: 992px){

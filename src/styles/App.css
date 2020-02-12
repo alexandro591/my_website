@@ -3,6 +3,12 @@ html {
     behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: teal;
+    text-decoration: underline;
+}
+
 .App,
 .App-header,
 #main,
