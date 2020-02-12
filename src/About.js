@@ -22,7 +22,7 @@ function About(options) {
                         document.getElementById('myskills').setAttribute("class","contentHidden")
                         document.getElementById('programs').setAttribute("class","contentHidden")
                     }}>
-                        Who am I? <i class="fas fa-user-secret"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        Who am I? <i className="fas fa-user-secret"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
                     
                     <div id="whoami" className="contentAvailable">
@@ -39,7 +39,7 @@ function About(options) {
                         document.getElementById('whoami').setAttribute("class","contentHidden")
                         document.getElementById('programs').setAttribute("class","contentHidden")
                     }}>
-                        Skills <i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        Skills <i className="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
 
                     <div id="myskills" className="contentHidden">
@@ -60,13 +60,11 @@ function About(options) {
 
                         <p>Electrical and Electronics knowledge</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 95%, #ffed4b 60%)"
                         }}>95%</p>
 
                         <p>Networking and servers knowledge</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 90%, #ffed4b 60%)"
                         }}>90%</p>
                     </div>
@@ -79,7 +77,7 @@ function About(options) {
                         document.getElementById('whoami').setAttribute("class","contentHidden")
                         document.getElementById('myskills').setAttribute("class","contentHidden")
                     }}>
-                        Software I use <i class="fab fa-ubuntu"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        Software I use <i className="fab fa-ubuntu"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
 
                     <div id="programs" className="contentHidden">
@@ -100,25 +98,21 @@ function About(options) {
 
                         <p>FluidSIM</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 95%, #ffed4b 60%)"
                         }}>95%</p>
 
                         <p>CADe SIMU</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 90%, #ffed4b 60%)"
                         }}>90%</p>
 
                         <p>Photoshop</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 70%, #ffed4b 60%)"
                         }}>70%</p>
 
                         <p>Illustrator</p>
                         <p className="skills" style={{
-                            background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 65%, #ffed4b 60%)"
                         }}>65%</p>
                     </div>

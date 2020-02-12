@@ -5,10 +5,10 @@ function Resume(options) {
 
     if(options.visible){
         return (
-            <div class="resume" id="resume"><br/>
+          <div class="resume" id="resume">
             <div class="container">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col">
                   <h3>My Experiences</h3>
                   <ul class="timeline">
                     <li>
@@ -48,7 +48,7 @@ function Resume(options) {
                   </ul>
                 </div>
     
-                <div class="col-md-6">
+                <div class="col">
                   <h3>Education</h3>
                   <ul class="timeline">
                     <li>
@@ -79,7 +79,9 @@ function Resume(options) {
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-6">
+              </div>
+              <div class="row">
+                <div class="col">
                   <br/><h3>Courses and certifications</h3>
                   <ul class="timeline">
                     <li>
@@ -117,7 +119,7 @@ function Resume(options) {
                   </ul>
                 </div>
     
-                <div class="col-md-6">
+                <div class="col">
                   <br/><h3>Awards, honours and achievements</h3>
                   <ul class="timeline">
                     <li>
@@ -149,6 +151,10 @@ function Resume(options) {
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="row" id="download">
+                <h5><a href="https://1drv.ms/w/s!AkRL6s8fyCDpkRYI0n2bXBzBIZmY?e=zWDjNx" target="__blank">Download this resume in Word <i class="fas fa-file-word"></i></a></h5>
+                <h5><a href="https://1drv.ms/b/s!AkRL6s8fyCDpkRV7jiHFTEQm1iX5?e=k3l3pg" target="__blank">Download this resume in PDF <i class="fas fa-file-pdf"></i></a></h5>
               </div>
             </div>
           </div>

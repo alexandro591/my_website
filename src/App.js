@@ -68,7 +68,7 @@ function App() {
               setHomeVisible(true)
               handleBtn(0);
             }}>
-              <i class="fas fa-home"></i><br/>
+              <i className="fas fa-home"></i><br/>
               <span>Home</span>
             </button>
             
@@ -81,7 +81,7 @@ function App() {
               setAboutVisible(true)
               handleBtn(1);
             }}>
-              <i class="fas fa-id-badge"></i><br/>
+              <i className="fas fa-id-badge"></i><br/>
               <span>About Me</span>
             </button>
 
@@ -94,7 +94,7 @@ function App() {
               setResumeVisible(true)
               handleBtn(2);
             }}>
-              <i class="fas fa-book-reader"></i><br/>
+              <i className="fas fa-book-reader"></i><br/>
               <span>Resume</span>          
             </button>
             
@@ -107,7 +107,7 @@ function App() {
               setServicesVisible(true)
               handleBtn(3);
             }}>
-              <i class="fas fa-wrench"></i><br/>
+              <i className="fas fa-wrench"></i><br/>
               <span>Services</span>
             </button>
 
@@ -121,7 +121,7 @@ function App() {
               handleBtn(3);
               handleBtn(4);
             }}>
-              <i class="fas fa-envelope"></i><br/>
+              <i className="fas fa-envelope"></i><br/>
               <span>Contact</span>
             </button>
           </div>
