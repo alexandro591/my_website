@@ -67,3 +67,35 @@
     50%{transform: rotateZ(180deg);}
     100%{transform: rotateZ(360deg);}
 }
+
+@media screen and (max-width: 992px){
+    #contact .row{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        margin: 0;
+    }
+    #contact .col{
+        width: 90vw;
+        margin: 0;
+    }
+    #contact .container{
+        width: 100%;
+        margin: 0;
+        overflow: auto;
+    }
+    #contact .emailPerson input{
+        width: 80vw;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+    
+    #contact .emailMessage textarea{
+        width: 80vw;
+        height: 10vh;
+        margin-bottom: 1vh;
+    }
+    #contact button{
+        width: 30vw;
+    }
+}
