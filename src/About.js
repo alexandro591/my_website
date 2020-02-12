@@ -5,7 +5,10 @@ function About(options) {
 
     if(options.visible){
         return (
-            <section id="about">
+            <section id="about" 
+            style={{
+              minHeight:window.innerHeight*.9,
+            }}>
                 <div id="photoAbout">
                     <img src="./img/aboutPicture.jpg"/>
                 </div>    
@@ -16,14 +19,13 @@ function About(options) {
                             document.getElementById('whoami').removeAttribute("class")
                             document.getElementById('whoami').setAttribute("class","contentAvailable")
                         }
-                        else{
-                            document.getElementById("whoami").setAttribute("class","contentHidden")
-                        }
+                        document.getElementById('myskills').setAttribute("class","contentHidden")
+                        document.getElementById('programs').setAttribute("class","contentHidden")
                     }}>
-                        Who am I?&nbsp;&nbsp;&nbsp;&nbsp;
+                        Who am I? <i class="fas fa-user-secret"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
                     
-                    <div id="whoami" className="contentHidden">
+                    <div id="whoami" className="contentAvailable">
                         <p>I'm a web developer, software developer and Mechatronics Engineer graduated from the "Universidad de las Fuerzas Armadas - ESPE" from Ecuador. Throughout my profesional expirience I've worked for small and medium companies, providing services like networking, server maintenance, software development and web development. I've also worked for Ten-tech, where I was in charge of CAD modelling, PCB design and implementation and 3D printing.</p>
                         <p>My passion is the software development, technology and IT, the industrial world and the teaching. I am characterized by always being constantly learning, being extremely self-taught and being hard-working, skills that have opened several professional doors for me.</p>
                         <p>I've covered my abilities as follows. Also you can visit my <a href="https://www.linkedin.com/in/andr%C3%A9s-tapia-a701aa193/" target="__blank">LinkedIn</a> profile and my <a href="https://app.pluralsight.com/profile/alexandro-tapia" target="__blank">PluralSight</a> profile to check my scores in the different fields I've mentioned or you can check my <a href="https://github.com/alexandro591/" target="__blank">GitHub</a> profile, and see my personal projects, such as my own company <a href="https://localhostecuador.netlify.com/" target="__blank">Localhost</a>.</p>
@@ -34,11 +36,10 @@ function About(options) {
                             document.getElementById('myskills').removeAttribute("class")
                             document.getElementById('myskills').setAttribute("class","contentAvailable")
                         }
-                        else{
-                            document.getElementById("myskills").setAttribute("class","contentHidden")
-                        }
+                        document.getElementById('whoami').setAttribute("class","contentHidden")
+                        document.getElementById('programs').setAttribute("class","contentHidden")
                     }}>
-                        Skills&nbsp;&nbsp;&nbsp;&nbsp;
+                        Skills <i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
 
                     <div id="myskills" className="contentHidden">
@@ -47,7 +48,7 @@ function About(options) {
                             background: "linear-gradient(110deg, #fdcd3b 80%, #ffed4b 60%)"
                         }}>80%</p>
 
-                        <p>software developer</p>
+                        <p>Software developer</p>
                         <p className="skills" style={{
                             background: "linear-gradient(110deg, #fdcd3b 100%, #ffed4b 60%)"
                         }}>100%</p>
@@ -75,11 +76,10 @@ function About(options) {
                             document.getElementById('programs').removeAttribute("class")
                             document.getElementById('programs').setAttribute("class","contentAvailable")
                         }
-                        else{
-                            document.getElementById("programs").setAttribute("class","contentHidden")
-                        }
+                        document.getElementById('whoami').setAttribute("class","contentHidden")
+                        document.getElementById('myskills').setAttribute("class","contentHidden")
                     }}>
-                        Programs I use&nbsp;&nbsp;&nbsp;&nbsp;
+                        Software I use <i class="fab fa-ubuntu"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </h1>
 
                     <div id="programs" className="contentHidden">
@@ -93,7 +93,7 @@ function About(options) {
                             background: "linear-gradient(110deg, #fdcd3b 100%, #ffed4b 60%)"
                         }}>100%</p>
 
-                        <p>Microsoft Office (Visio and Project included)</p>
+                        <p>Microsoft Office</p>
                         <p className="skills" style={{
                             background: "linear-gradient(110deg, #fdcd3b 85%, #ffed4b 60%)"
                         }}>85%</p>
@@ -109,6 +109,18 @@ function About(options) {
                             background: "rgb(0,0,0)",
                             background: "linear-gradient(110deg, #fdcd3b 90%, #ffed4b 60%)"
                         }}>90%</p>
+
+                        <p>Photoshop</p>
+                        <p className="skills" style={{
+                            background: "rgb(0,0,0)",
+                            background: "linear-gradient(110deg, #fdcd3b 70%, #ffed4b 60%)"
+                        }}>70%</p>
+
+                        <p>Illustrator</p>
+                        <p className="skills" style={{
+                            background: "rgb(0,0,0)",
+                            background: "linear-gradient(110deg, #fdcd3b 65%, #ffed4b 60%)"
+                        }}>65%</p>
                     </div>
                     
                 </div>    
