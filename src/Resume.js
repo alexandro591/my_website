@@ -153,8 +153,8 @@ function Resume(options) {
                 </div>
               </div>
               <div className="row" id="download">
-                <h5><a href="https://1drv.ms/w/s!AkRL6s8fyCDpkRYI0n2bXBzBIZmY?e=zWDjNx" target="__blank">Download this resume in Word <i class="fas fa-file-word"></i></a></h5>
-                <h5><a href="https://1drv.ms/b/s!AkRL6s8fyCDpkRV7jiHFTEQm1iX5?e=k3l3pg" target="__blank">Download this resume in PDF <i class="fas fa-file-pdf"></i></a></h5>
+                <h5><a href="https://1drv.ms/w/s!AkRL6s8fyCDpkRYI0n2bXBzBIZmY?e=zWDjNx" target="_blank">Download this resume in Word <i class="fas fa-file-word"></i></a></h5>
+                <h5><a href="https://1drv.ms/b/s!AkRL6s8fyCDpkRV7jiHFTEQm1iX5?e=k3l3pg" target="_blank">Download this resume in PDF <i class="fas fa-file-pdf"></i></a></h5>
               </div>
             </div>
           </div>
