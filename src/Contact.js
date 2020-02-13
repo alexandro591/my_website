@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './styles/contact.css';
-import ScriptTag from 'react-script-tag'
+import ScriptTag from 'react-script-tag';
+
 function Contact(options) {
 
     if(options.visible){
