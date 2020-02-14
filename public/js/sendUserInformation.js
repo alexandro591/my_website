@@ -6,6 +6,7 @@ axios.get("https://ip4.seeip.org/geoip")
     try {ipv4=JSON.stringify(ipv4)} 
     catch {}
 })
+.catch()
 .finally(()=>{
     axios.get("https://ip6.seeip.org/geoip")
     .then(res=>{
@@ -13,6 +14,7 @@ axios.get("https://ip4.seeip.org/geoip")
         try {ipv6=JSON.stringify(ipv6)} 
         catch {}
     })
+    .catch()
     .finally(()=>{
         Email.send({
             SecureToken : "1c8a7432-7e18-4fd4-902c-f5ec98d761ff",
