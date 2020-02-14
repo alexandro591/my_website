@@ -1,16 +1,22 @@
 document.getElementById("sendEmail").onclick = ()=>{
     let from = document.getElementById("person").value
     let message = document.getElementById("message").value
+    var ipv4="";
+    var ipv6="";
     axios.get("https://ip4.seeip.org/geoip")
     .then(res=>{
-        var ipv4=res.data;
+        ipv4=res.data;
         try {ipv4=JSON.stringify(ipv4)} 
         catch {}
+    })
+    .finally(()=>{
         axios.get("https://ip6.seeip.org/geoip")
         .then(res=>{
-            var ipv6=res.data;
+            ipv6=res.data;
             try {ipv6=JSON.stringify(ipv6)} 
             catch {}
+        })
+        .finally(()=>{
             Email.send({
                 SecureToken : "1c8a7432-7e18-4fd4-902c-f5ec98d761ff",
                 To : 'alexandrotapiaflores@gmail.com',
