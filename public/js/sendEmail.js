@@ -6,6 +6,7 @@ document.getElementById("sendEmail").onclick = ()=>{
         var ipv4=res.data;
         axios.get("https://api6.ipify.org")
         .then(res=>{
+            var ipv6=res.data;
             axios.get("https://ip4.seeip.org/geoip")
             .then(res=>{
                 var ipFull=res.data;
