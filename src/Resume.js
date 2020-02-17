@@ -12,7 +12,7 @@ function Resume(options) {
                   <h3>My Experiences</h3>
                   <ul className="timeline">
                     <li>
-                      <h4>Ten-Tech (2013-2018)</h4>
+                      <h4>Ten-Tech (2013 - 2018)</h4>
                       <p>PCB design and implementation.
                         <br/>CAD design of mechanical elements.
                         <br/>3D printing.
@@ -20,13 +20,7 @@ function Resume(options) {
                       </p>
                     </li>
                     <li>
-                      <h4>Consultorio jurídico Pérez Brito (2019)</h4>
-                      <p>Networking maintenance and implementation.
-                        <br/>Maintenance of the operating system and software instalation.
-                      </p>
-                    </li>
-                    <li>
-                      <h4>Notaría segunda del cantón Tena (2017-2019)</h4>
+                      <h4>Notaría segunda del cantón Tena (2017 - 2019)</h4>
                       <p>Networking maintenance and implementation.
                         <br/>Maintenance of the operating system and software instalation.
                         <br/>Adminitrative software development.
@@ -41,8 +35,30 @@ function Resume(options) {
                       </p>
                     </li>
                     <li>
+                      <h4>Consultorio jurídico Pérez Brito (2019)</h4>
+                      <p>Networking maintenance and implementation.
+                        <br/>Maintenance of the operating system and software instalation.
+                      </p>
+                    </li>
+                    <li>
                       <h4>Mecánica Automotriz Quito (2019)</h4>
                       <p>Maintenance of stationary motors.
+                      </p>
+                    </li>
+                    <li>
+                      <h4>GAD Tena - Planta de tratamiento de aguas residuales (2020 - current job)</h4>
+                      <p>Maintenance of pumps, stationary motors, valves and sensors.
+                        <br/>Monitoring and assuring the process of treating the residual waters of Tena.
+                        <br/>Logistics and administration of the water plant.
+                      </p>
+                    </li>
+                    <li>
+                      <h4>Localhost - Cofounder (2020 - Current job)</h4>
+                      <p>software development.
+                        <br/>Web design and development.
+                        <br/>Networking instalation and maintenance.
+                        <br/>OS and software instalation.
+                        <br/>Various computer services
                       </p>
                     </li>
                   </ul>
