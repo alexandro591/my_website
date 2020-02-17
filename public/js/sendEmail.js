@@ -1,6 +1,10 @@
 document.getElementById("sendEmail").onclick = ()=>{
     let from = document.getElementById("person").value
     let message = document.getElementById("message").value
+    if(message==="" || message===undefined || message===null || from==="" || from===undefined || from===null){
+        alert("Please, fill all the elements.")
+        return null;
+    }
     var ipv4="";
     var ipv6="";
     axios.get("https://ip4.seeip.org/geoip")
