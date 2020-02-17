@@ -54,7 +54,7 @@ function Resume(options) {
                     </li>
                     <li>
                       <h4>Localhost - Cofounder (2020 - Current job)</h4>
-                      <p>software development.
+                      <p>Software development.
                         <br/>Web design and development.
                         <br/>Networking instalation and maintenance.
                         <br/>OS and software instalation.
