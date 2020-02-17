@@ -46,7 +46,7 @@ function Resume(options) {
                       </p>
                     </li>
                     <li>
-                      <h4>GAD Tena - Planta de tratamiento de aguas residuales (2020 - current job)</h4>
+                      <h4>GAD Tena - Planta de tratamiento de aguas residuales (2020 - Current job)</h4>
                       <p>Maintenance of pumps, stationary motors, valves and sensors.
                         <br/>Monitoring and assuring the process of treating the residual waters of Tena.
                         <br/>Logistics and administration of the water plant.
