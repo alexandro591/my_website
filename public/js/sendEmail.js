@@ -37,7 +37,9 @@ document.getElementById("sendEmail").onclick = ()=>{
                     else{
                         alert("there was an error, please try again")
                     }
-                    document.getElementById("sendEmail").innerHTML = "Send Message"
+                    document.getElementById("sendEmail").innerHTML = "Send Message";
+                    document.getElementById("person").value = "";
+                    document.getElementById("message").value = "";
                 }
             );
         });
