@@ -85,4 +85,11 @@ textarea {
         align-items: center;
         font-size: 2vh;
     }
+
+    @keyframes selected{
+        0%{font-size: 2vh;}
+        50%{font-size: 2.1vh;}
+        100%{font-size: 2.2vh;font-weight: bold;}
+    }
+
 }
