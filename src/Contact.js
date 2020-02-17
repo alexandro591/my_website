@@ -32,7 +32,7 @@ function Contact(options) {
                 <div className="col">
                   <div className="container">
                     <h4 className="text-center"><i className="fab fa-whatsapp">&nbsp;&nbsp;</i>Social Media</h4>
-                    <a href="https://wa.me/593998775709" target="_blank" rel="noopener noreferrer"><div className="mysocialmedia text-center">Whatsapp</div></a>
+                    <a href="https://wa.me/593998775709" target="_blank" rel="noopener noreferrer"><div className="mysocialmedia text-center">WhatsApp</div></a>
                   </div>
                 </div>
               </div>
