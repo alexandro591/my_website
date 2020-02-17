@@ -7,7 +7,7 @@ import Services from'./Services';
 import Contact from'./Contact';
 
 function handleBtn(navBtnIndex){
-  navigator.vibrate(50);
+  navigator.vibrate(50)
   try {
     document.getElementById("selected").removeAttribute("id");
   } catch{}
@@ -60,7 +60,6 @@ function App() {
             minHeight:window.innerHeight*0.1,
           }}>
             <button className="nav-btn" id="selected" onClick={()=>{
-              setHomeVisible(false)
               setAboutVisible(false)
               setResumeVisible(false)
               setServicesVisible(false)
@@ -74,7 +73,6 @@ function App() {
             
             <button className="nav-btn" onClick={()=>{
               setHomeVisible(false)
-              setAboutVisible(false)
               setResumeVisible(false)
               setServicesVisible(false)
               setContactVisible(false)
@@ -88,7 +86,6 @@ function App() {
             <button className="nav-btn" onClick={()=>{
               setHomeVisible(false)
               setAboutVisible(false)
-              setResumeVisible(false)
               setServicesVisible(false)
               setContactVisible(false)
               setResumeVisible(true)
@@ -102,7 +99,6 @@ function App() {
               setHomeVisible(false)
               setAboutVisible(false)
               setResumeVisible(false)
-              setServicesVisible(false)
               setContactVisible(false)
               setServicesVisible(true)
               handleBtn(3);
@@ -116,9 +112,7 @@ function App() {
               setAboutVisible(false)
               setResumeVisible(false)
               setServicesVisible(false)
-              setContactVisible(false)
               setContactVisible(true)
-              handleBtn(3);
               handleBtn(4);
             }}>
               <i className="fas fa-envelope"></i><br/>

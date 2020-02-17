@@ -1,21 +1,21 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './styles/services.css';
 
 function Services(options) {
 
     if(options.visible){
         return (
-            <div class="services" id="services"style={{
+            <div className="services" id="services"style={{
                 minHeight:window.innerHeight*.9,
             }}>
-                <div class="container">
+                <div className="container">
                     <h3 style={{margin:"auto", textAlign:"center"}}><br/>My Services<br/><br/></h3>
                     <p style={{margin:"auto", textAlign:"center",marginBottom:"5vh"}}>Along with my professional experience and studies
                         <br/>I am confident myself to offer the best services possible
                         <br/>in the next fields.
                     </p>
-                    <div class="row">
-                        <div class="col" style={{textAlign:"center"}}>
+                    <div className="row">
+                        <div className="col" style={{textAlign:"center"}}>
                             <div>
                                 <h4><i className="fa fa-cogs">&nbsp;&nbsp;</i>Mechanical</h4>
                                 <p>Design of mechanical drawings.
@@ -27,7 +27,7 @@ function Services(options) {
                             </div>
                             <img src="./img/gears.gif"/>
                         </div>
-                        <div class="col" style={{textAlign:"center"}}>
+                        <div className="col" style={{textAlign:"center"}}>
                             <div>
                                 <h4><i className="fa fa-plug">&nbsp;&nbsp;</i>Electrical and Eletronic</h4>
                                 <p>Design and implementation of electrical power systems.
@@ -37,7 +37,7 @@ function Services(options) {
                             </div>
                             <img src="./img/electronic.gif"/>
                         </div>
-                        <div class="col" style={{textAlign:"center"}}>
+                        <div className="col" style={{textAlign:"center"}}>
                             <div>
                                 <h4><i className="fa fa-laptop">&nbsp;&nbsp;</i>Software</h4>
                                 <p>Front-end / Back-end development.

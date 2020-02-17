@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './styles/about.css';
 
 function About(options) {
@@ -28,7 +28,7 @@ function About(options) {
                     <div id="whoami" className="contentAvailable">
                         <p>I'm a web developer, software developer and Mechatronics Engineer graduated from the "Universidad de las Fuerzas Armadas - ESPE" from Ecuador. Throughout my profesional expirience I've worked for small and medium companies, providing services like networking, server maintenance, software development and web development. I've also worked for Ten-tech, where I was in charge of CAD modelling, PCB design and implementation and 3D printing.</p>
                         <p>My passion is the software development, technology and IT, the industrial world and the teaching. I am characterized by always being constantly learning, being extremely self-taught and being hard-working, skills that have opened several professional doors for me.</p>
-                        <p>I've covered my abilities as follows. Also you can visit my <a href="https://www.linkedin.com/in/andr%C3%A9s-tapia-a701aa193/" target="_blank">LinkedIn</a> profile and my <a href="https://app.pluralsight.com/profile/alexandro-tapia" target="_blank">PluralSight</a> profile to check my scores in the different fields I've mentioned or you can check my <a href="https://github.com/alexandro591/" target="_blank">GitHub</a> profile, and see my personal projects, such as my own company <a href="https://localhostecuador.netlify.com/" target="_blank">Localhost</a>.</p>
+                        <p>I've covered my abilities as follows. Also you can visit my <a href="https://www.linkedin.com/in/andr%C3%A9s-tapia-a701aa193/" target="_blank" rel="noopener noreferrer">LinkedIn</a> profile and my <a href="https://app.pluralsight.com/profile/alexandro-tapia" target="_blank" rel="noopener noreferrer">PluralSight</a> profile to check my scores in the different fields I've mentioned or you can check my <a href="https://github.com/alexandro591/" target="_blank" rel="noopener noreferrer">GitHub</a> profile, and see my personal projects, such as my own company <a href="https://localhostecuador.netlify.com/" target="_blank" rel="noopener noreferrer">Localhost</a>.</p>
                     </div>
 
                     <h1 className="btnAbout" style={{textAlign:"right"}} onClick={()=>{

@@ -60,6 +60,18 @@ textarea {
 #selected
 {
     filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    animation-name: selected;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes selected{
+    0%{font-size: 1.5vh;}
+    50%{font-size: 1.6vh;}
+    100%{font-size: 1.7vh;font-weight: bold;}
 }
 
 @media screen and (min-width: 992px){

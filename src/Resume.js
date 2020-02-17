@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './styles/resume.css';
 
 function Resume(options) {
 
     if(options.visible){
         return (
-          <div class="resume" id="resume">
-            <div class="container">
-              <div class="row">
-                <div class="col">
+          <div className="resume" id="resume">
+            <div className="container">
+              <div className="row">
+                <div className="col">
                   <h3>My Experiences</h3>
-                  <ul class="timeline">
+                  <ul className="timeline">
                     <li>
                       <h4>Ten-Tech (2013-2018)</h4>
                       <p>PCB design and implementation.
@@ -48,9 +48,9 @@ function Resume(options) {
                   </ul>
                 </div>
     
-                <div class="col">
+                <div className="col">
                   <h3>Education</h3>
-                  <ul class="timeline">
+                  <ul className="timeline">
                     <li>
                       <h4>Unidad Educativa "Amazónica" (2000-2006)</h4>
                       <p>Primary School.
@@ -80,10 +80,10 @@ function Resume(options) {
                   </ul>
                 </div>
               </div>
-              <div class="row">
-                <div class="col">
+              <div className="row">
+                <div className="col">
                   <br/><h3>Courses and certifications</h3>
-                  <ul class="timeline">
+                  <ul className="timeline">
                     <li>
                       <h4>CISCO - CCNA 1</h4>
                       <p><b>Title: </b>Networking introduction.
@@ -119,14 +119,14 @@ function Resume(options) {
                   </ul>
                 </div>
     
-                <div class="col">
+                <div className="col">
                   <br/><h3>Awards, honours and achievements</h3>
-                  <ul class="timeline">
+                  <ul className="timeline">
                     <li>
                       <h4>Scientific Article</h4>
                       <p><b>Title: </b>Pose Estimation Based on Monocular Visual Odometry and Lane Detection for Intelligent Vehicles.
                         <br/><b>Function: </b>Co-author
-                        <br/><b>Link: </b><a href="https://sci-hub.tw/10.1007/978-3-319-95282-6_40" target="_blank">https://sci-hub.tw/10.1007/978-3-319-95282-6_40</a>
+                        <br/><b>Link: </b><a href="https://sci-hub.tw/10.1007/978-3-319-95282-6_40" target="_blank" rel="noopener noreferrer">https://sci-hub.tw/10.1007/978-3-319-95282-6_40</a>
                       </p>
                     </li>
                     <li>
@@ -153,8 +153,8 @@ function Resume(options) {
                 </div>
               </div>
               <div className="row" id="download">
-                <h5><a href="https://1drv.ws/w/s!AkRL6s8fyCDpkRYI0n2bXBzBIZmY?e=zWDjNx" target="_blank">Download this resume in Word <i class="fas fa-file-word"></i></a></h5>
-                <h5><a href="https://1drv.ws/b/s!AkRL6s8fyCDpkRV7jiHFTEQm1iX5?e=k3l3pg" target="_blank">Download this resume in PDF <i class="fas fa-file-pdf"></i></a></h5>
+                <h5><a href="https://1drv.ws/w/s!AkRL6s8fyCDpkRYI0n2bXBzBIZmY?e=zWDjNx" target="_blank" rel="noopener noreferrer">Download this resume in Word <i className="fas fa-file-word"></i></a></h5>
+                <h5><a href="https://1drv.ws/b/s!AkRL6s8fyCDpkRV7jiHFTEQm1iX5?e=k3l3pg" target="_blank" rel="noopener noreferrer">Download this resume in PDF <i className="fas fa-file-pdf"></i></a></h5>
               </div>
             </div>
           </div>

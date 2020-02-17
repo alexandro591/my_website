@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './styles/contact.css';
 import ScriptTag from 'react-script-tag';
 
@@ -8,6 +8,8 @@ function Contact(options) {
         return (
             <div className="contact" id="contact" style={{
                 minHeight:window.innerHeight*.9,
+                minWidth:window.innerWidth,
+                maxWidth:window.innerWidth
             }}>
               <h3 className="text-center">Contact me</h3>
               <p className="text-center">If you requiere any of my services,
@@ -18,19 +20,19 @@ function Contact(options) {
                 <div className="col">
                   <div className="container">
                     <h4 className="text-center"><i className="fa fa-phone">&nbsp;&nbsp;</i>Phone</h4>
-                    <a href="tel:+593998775709" target="_blank"><div className=" myphone text-center">+593998775709</div></a>
+                    <a href="tel:+593998775709" target="_blank" rel="noopener noreferrer"><div className=" myphone text-center">+593998775709</div></a>
                   </div>
                 </div>
                 <div className="col">
                   <div className="container">
                     <h4 className="text-center"><i className="fa fa-envelope">&nbsp;&nbsp;</i>Email</h4>
-                    <a href="mailto:alexandrotapiaflores@gmail.com" target="_blank"><div className="myemail text-center">alexandrotapiaflores@gmail.com</div></a>
+                    <a href="mailto:alexandrotapiaflores@gmail.com" target="_blank" rel="noopener noreferrer"><div className="myemail text-center">alexandrotapiaflores@gmail.com</div></a>
                   </div>
                 </div>
                 <div className="col">
                   <div className="container">
-                    <h4 className="text-center"><i className="fa fa-hashtag">&nbsp;&nbsp;</i>Social Media</h4>
-                    <a href="https://www.facebook.com/alexandrotapiaflores" target="_blank"><div className="mysocialmedia text-center">Facebook</div></a>
+                    <h4 className="text-center"><i className="fab fa-whatsapp">&nbsp;&nbsp;</i>Social Media</h4>
+                    <a href="https://wa.me/593998775709" target="_blank" rel="noopener noreferrer"><div className="mysocialmedia text-center">Whatsapp</div></a>
                   </div>
                 </div>
               </div>
