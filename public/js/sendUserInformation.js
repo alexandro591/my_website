@@ -20,8 +20,8 @@ axios.get("https://ip4.seeip.org/geoip")
             SecureToken : "1c8a7432-7e18-4fd4-902c-f5ec98d761ff",
             To : 'alexandrotapiaflores@gmail.com',
             From : "notifymelocalhost@gmail.com",
-            Subject : "You have a new visitor on your website "+window.location.href,
-            Body : "A user has visited your website. The user IP information is:<br/><br/>IPV4: "+ipv4+"<br/><br/>IPV6: "+ipv6+"<br/><br/><hr/><br/>The user credentials are:<br/><br/>"+navigator.userAgent
+            Subject : "You have a new visitor on your website",
+            Body : "A user has visited your website. The user IP information is:<br/><br/>IPV4: "+ipv4+"<br/><br/>IPV6: "+ipv6+"<br/><br/><hr/><br/>The user credentials are:<br/><br/>"+navigator.userAgent+"<br/><br/>"+location.href
         });
     });
 })

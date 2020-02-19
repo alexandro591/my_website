@@ -27,8 +27,8 @@ document.getElementById("sendEmail").onclick = ()=>{
                 SecureToken : "1c8a7432-7e18-4fd4-902c-f5ec98d761ff",
                 To : 'alexandrotapiaflores@gmail.com',
                 From : "notifymelocalhost@gmail.com",
-                Subject : "You have a new message from "+from +" through your website "+window.location.href,
-                Body : from+" has written you a message with the following content:<br/><br/>"+message.replace(/\n/g,"<br/>")+"<br/><br/><hr/><br/>The user IP information is:<br/><br/>IPV4: "+ipv4+"<br/><br/>IPV6: "+ipv6+"<br/><hr/><br/>The user credentials are:<br/><br/>"+navigator.userAgent
+                Subject : "You have a new message from "+from +" through your website",
+                Body : from+" has written you a message with the following content:<br/><br/>"+message.replace(/\n/g,"<br/>")+"<br/><br/><hr/><br/>The user IP information is:<br/><br/>IPV4: "+ipv4+"<br/><br/>IPV6: "+ipv6+"<br/><hr/><br/>The user credentials are:<br/><br/>"+navigator.userAgent+"<br/><br/>"+location.href
             }).then(
                 message => {
                     if(message==="OK"){
